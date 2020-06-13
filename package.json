@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-bot-ccr",
+  "version": "1.0.0",
+  "description": "BOT API to WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vractos/WhatsApp-BOT-CCR.git"
+  },
+  "author": "@Vractos @PCS1000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vractos/WhatsApp-BOT-CCR/issues"
+  },
+  "homepage": "https://github.com/Vractos/WhatsApp-BOT-CCR#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
