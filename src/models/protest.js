@@ -5,11 +5,9 @@ const ProtestSchema = new mongoose.Schema({
         type: Date,
         default: Date.now
     },
-    protest: {
-        type: String
-    }
+    protest: String
 })
 
-const Protest = mongoose.model('Protest', ProtestSchema);
+const Protests = mongoose.model('Protests', ProtestSchema);
 
-module.exports = Protest
+module.exports = Protests

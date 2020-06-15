@@ -1,0 +1,28 @@
+{
+    "twilio": {
+        "messaging.whatsapp": {
+            "To": "whatsapp:+14155238886",
+            "From": "whatsapp:+556198750550",
+            "MessageSid": "SM45414319001c2f30c2573b4f52bf16e7"
+        },
+        "collected_data": {
+            "reclamacao": {
+                "status": "complete",
+                "date_started": "2020-06-15T02:01:21Z",
+                "date_completed": "2020-06-15T02:01:32Z",
+                "answers": {
+                    "reclamacao": {
+                        "answer": "S",
+                        "type": "Twilio.ALPHANUMERIC",
+                        "filled": true,
+                        "attempts": 1,
+                        "validate_attempts": 1,
+                        "confirm_attempts": 0,
+                        "confirmed": false,
+                        "media": null
+                    }
+                }
+            }
+        }
+    }
+}
