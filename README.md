@@ -6,7 +6,7 @@
 ```bash
 npm i
 ```
-&
+- Na pasta raiz, execute
 ```bash
 npm start
 ```
