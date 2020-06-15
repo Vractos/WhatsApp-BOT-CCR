@@ -7,7 +7,8 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
 //Routes
-app.use('/', require('./routes/sendMessage'))
+app.use('/appointment', require('./routes/appointment'))
+app.use('/compliment', require('./routes/compliment'))
 
 
 // catch 404 and forward to error handler
